@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<DataSource> 
+  <!--数据库列表-->  
+  <database name="mysql"> 
+    <driver>oracle.jdbc.driver.OracleDriver</driver>  
+    <url>jdbc:mysql://localhost:3306/myjdbc</url>  
+    <user>root</user> 
+  </database> 
+</DataSource>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource>
+	<database name="mysql" version="5.0">
+		<diver>com.mysql.jdbc.Driver</diver>
+		<url>jdbc:mysql://localhost:3306/myjdbc</url>
+		<user>root</user>
+		<password>root</password>
+	</database>
+	
+	<database name="Oracle" version="10G">
+		<diver>oracle.jdbc.driver.OracleDriver</diver>
+		<url>jdbc:oracle:thin:@127.0.0.1:1521:orcl</url>
+		<user>system</user>
+		<password>root</password>
+	</database>
+</DataSource>
