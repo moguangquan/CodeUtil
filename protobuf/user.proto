@@ -1,0 +1,8 @@
+package protobuf; 
+option java_package = "com.poxiao.protobuf"; 
+option java_outer_classname = "UserProtobuf"; 
+message userBuf  { 
+  required int32 ID = 1; 
+  required string Url = 2; 
+  required bool IsSD = 3;
+}
