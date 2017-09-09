@@ -39,3 +39,5 @@ SocialUtil.java：将15位身份证号码换算成18位、将18位身份证号�
 /crypt:AES加解密、Base64加解密、DES加解密算法、MD5加密、RC2加解密算法、SHA加密
 
 /exception:继承于CRM2Exception的自定义异常类
+
+/stamp_pdf:使用itextpdf的来完成pdf文档的盖章
